@@ -133,9 +133,15 @@ p {
   color: var(--white);
   box-shadow: 0 8px 8px -4px var(--pale-orange);
 }
+.desktop {
+  display: none;
+}
 @media screen and (min-width: 425px) {
   .arrow-right {
     left: 23rem;
+  }
+  .desktop {
+    display: none;
   }
 }
 @media screen and (min-width: 768px) {
@@ -145,6 +151,9 @@ p {
   }
   .arrow-left {
     bottom: 22rem;
+  }
+  .desktop {
+    display: none;
   }
 }
 /* Desktop View */
