@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | E-commerce product page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mobile">
+      <!-- Navigation -->
+      <section>
+        <nav>
+          <div class="navBar">
+            <img src="./images/icon-menu.svg" alt="menu" />
+            <!-- Collections
+ Men
+ Women
+ About
+ Contact -->
+            <img src="./images/logo.svg" alt="logo" class="logo" />
+          </div>
+          <div class="cartBar">
+            <img src="./images/icon-cart.svg" alt="cart" class="cart" />
+            <img
+              src="./images/image-avatar.png"
+              alt="profile"
+              class="profile"
+            />
+          </div>
+        </nav>
+      </section>
+      <!-- Product Image -->
+      <section>
+        <img src="./images/image-product-1.jpg" alt="" class="productImg" />
+        <div class="arrow-left">
+          <img src="./images/icon-previous.svg" alt="" />
+        </div>
+        <div class="arrow-right">
+          <img src="./images/icon-next.svg" alt="" />
+        </div>
+      </section>
+      <!-- Product Description -->
+      <main>
+        <h5>Sneaker Company</h5>
+        <h1>Fall Limited Edition Sneakers</h1>
+        <p>
+          These low-profile sneakers are your perfect casual wear companion.
+          Featuring a durable rubber outer sole, they’ll withstand everything
+          the weather can offer.
+        </p>
+        <div class="price">
+          <div class="newPrice">$125.00</div>
+          <div class="dicount">50%</div>
+          <div class="oldPrice">$250.00</div>
+        </div>
+        <div class="counter">
+          <div class="counterImage">
+            <img src="./images/icon-minus.svg" alt="" />
+          </div>
+          0
+          <div class="counterImage">
+            <img src="/images/icon-plus.svg" alt="" />
+          </div>
+        </div>
+        <div class="checkout">
+          <img src="./images/icon-cart.svg" alt="" />
+          Add to cart
+        </div>
+      </main>
+    </div>
+    <!-- Desktop View -->
+    <div class="desktop">
+      <!-- Navigation -->
+      <nav>
+        <div class="navLogo">
+          <div class="logo"><img src="./images/logo.svg" alt="" /></div>
+        <ul class="navBar">
+          <li>Collections</li>
+          <li>Men</li>
+          <li>Women</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+        </div>
+        <div class="cartBar">
+          <div class="cart"><img src="./images/icon-cart.svg" alt="" /></div>
+          <div class="profile"><img src="/images/image-avatar.png" alt=""></div>
+        </div>
+      </nav>
+      <!-- Main Content -->
+      <div class="mainDescrition">
+        <div class="product">
+        <img src="./images/image-product-1.jpg" alt="">
+        <div class="productImages">
+          <ul>
+            <li> <img src= "images/image-product-1.jpg"> </li>
+            <li><img src= "images/image-product-2.jpg"></li>
+            <li><img src= "images/image-product-3.jpg"></li>
+            <li><img src= "images/image-product-4.jpg"></li>
+          </ul>
+        </div>
+        </div>
+        <!-- Description -->
+        <section>
+          <h5>Sneaker Company</h5>
+          <h1>Fall Limited Edition <br> Sneakers</h1>
+          <p>
+            These low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they’ll withstand everything
+            the weather can offer.
+          </p>
+          <div class="price">
+            <div class="newPrice">$125.00</div>
+            <div class="dicount">50%</div>
+            <br><div class="oldPrice">$250.00</div>
+          </div>
+          <div class="checkoutSection">
+            <div class="counter">
+              <div class="counterImage">
+                <img src="./images/icon-minus.svg" alt="" />
+              </div>
+              0
+              <div class="counterImage">
+                <img src="/images/icon-plus.svg" alt="" />
+              </div>
+            </div>
+            <div class="checkout">
+              <img src="./images/icon-cart.svg" alt="" />
+              Add to cart
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Ihuoma Ndukwe</a>.
+    </div>
+  </body>
+</html>
